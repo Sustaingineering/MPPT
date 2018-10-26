@@ -1,0 +1,11 @@
+swarm.obj: ../swarm.c
+swarm.obj: ..\Swarm.h
+swarm.obj: ..\particle.h
+swarm.obj: ..\swarm.h
+swarm.obj: ..\particle.h
+swarm.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include/stdlib.h
+swarm.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include/_ti_config.h
+swarm.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include/linkage.h
+swarm.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include/stdlibf.h
+swarm.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include/math.h
+swarm.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-c2000_18.1.1.LTS/include/_defs.h
