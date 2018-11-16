@@ -1,1 +1,0 @@
-"./main.obj" "./mppt.obj" "./sensors.obj" "../28023_RAM_lnk.cmd" "../28027_RAM_lnk.cmd" "../F28027.cmd" -llibc.a 
