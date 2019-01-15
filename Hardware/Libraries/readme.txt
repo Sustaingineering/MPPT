@@ -1,0 +1,3 @@
+UBC Lib reflects the inventory items in the Kaiser Alpha Technologies Power Laboratory. Hedgehog Lib reflects components specific to the Hedgehog project that are not normally purchased by the Power Lab.
+
+Do not directly edit or add to the components in "UBC Lib" here, this should be kept up to date with the Power Lab's Altium libraries. When using a new component that the Power Lab doesn't have in its inventory, create the schematic and footprint in Hedgehog Lib.
