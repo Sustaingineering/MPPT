@@ -261,10 +261,10 @@ void InitEGpio(void) {
     EALLOW;
 
     GPIO_setPullUp(myGpio, GPIO_Number_4, GPIO_PullUp_Disable);
-    GPIO_setPullUp(myGpio, GPIO_Number_5, GPIO_PullUp_Disable);
+    GPIO_setPullUp(myGpio, GPIO_Number_5, GPIO_PullUp_Disable); //Memory out of range only when these two lines are enabled
 
     GPIO_setMode(myGpio, GPIO_Number_4, GPIO_4_Mode_EPWM3A);
-    GPIO_setMode(myGpio, GPIO_Number_5, GPIO_5_Mode_EPWM3B);
+    GPIO_setMode(myGpio, GPIO_Number_5, GPIO_5_Mode_EPWM3B); //Memory out of range only when these two lines are enabled
 
     // Configure GPIO 0-3 as outputs
     GPIO_setMode(myGpio, GPIO_Number_0, GPIO_0_Mode_GeneralPurpose);
